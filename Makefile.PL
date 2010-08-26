@@ -24,6 +24,7 @@ WriteMakefile
 	PL_FILES  => {},
 	PREREQ_PM =>
 	{
+		common::sense     => 3.0,
 		File::chdir       => 0.1003,
 		File::Copy        => 2.11,
 		File::Slurp       => 9999.13,
